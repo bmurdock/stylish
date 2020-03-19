@@ -1,6 +1,11 @@
 body {
     display: flex;
     flex-flow: column;
+    min-height: 100vh;
+}
+
+body>* {
+    padding: 1em;
 }
 
 main {
